@@ -1,0 +1,37 @@
+@import { de } from '@fancyapps/ui/dist/carousel/l10n/de.esm.js';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+  border: 1px red solid;
+}
+#myCarousel {
+  border: 2px blue solid;
+  width: 100%;
+}
+
+#myCarousel .f-carousel__slide {
+  padding: 10px;
+  background: #eee;
+  border: 2px green solid;
+  text-align: center;
+  max-width: 33.33%;
+
+}
+.btn_rojo{
+  text-decoration: none;
+  background: #800000;
+  color: white;
+  padding:10px 30px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="responsiveslides.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="icon" href="Imagenes/icono queen.png"/>
+  <title>Inicio - Queen</title>
+</head>
+<body>
+
+  
+    <div class="imagen-fondo-menu">
+      <nav class="ancho iconmenu">
+        <br><br>
+        <i id="iconomenu" class="fa-solid fa-bars"></i>
+        <ul id="menu" class="contenedormenu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="Historia.html">Historia</a></li>
+          <li><a href="Albumes.html">Albumes</a></li>
+          <li><a href="Exitos.html">Exitos</a></li>
+          <li><a href="Curiosidades.html">Curiosidades</a></li>
+        </ul>
+      </nav>
+      <header class="ancho">
+        <figure class="logo">
+          <img src="Imagenes/logo queen.png" alt="">
+        </figure>
+      </header>
+      <br><br><br><br><br><br>
+    </div>
+    <br><br><br>
+    <section class="contenedor_slide">
+      <ul class="rslides">
+        <li><img src="slides/slide1.jpg" alt=""></li>
+        <li><img src="slides/slide2.jpg" alt=""></li>
+        <li><img src="slides/slide3.jpeg" alt=""></li>
+        <li><img src="slides/slide4.jpg" alt=""></li>
+        <li><img src="slides/slide5.jpg" alt=""></li>
+        <li><img src="slides/slide6.jpg" alt=""></li>
+        <li><img src="slides/slide7.jpeg" alt=""></li>
+        <li><img src="slides/slide8.jpeg" alt=""></li>
+        <li><img src="slides/slide9.jpg" alt=""></li>
+        <li><img src="slides/slide10.jpg" alt=""></li>
+      </ul>
+      <div class="audios">
+        <h2>Algunas de sus canciones</h2>
+      <br><br>
+      <div class="audio1">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/70wvmV1Dyg1xWtCYSngm4R?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="audio2">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1lgum3r8M4ctUb8CjcFHvg?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="audio3">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/63vh1SGG67jGyNPV0SOohf?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="audio4">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5ine6nkf8CZJXCfgEfn7T7?utm_source=generator&theme=0" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      </div>
+    </section>
+    <br>
+    <footer>
+      <br><br><br>
+      <h2>Conoce más de nosotros en nuestras redes sociales</h2>
+      <br><br>
+      <div class="wallpaper">
+        <img src="Imagenes/logo queen.jpg" alt="">
+      </div>
+        <aside class="RedesSociales">
+          <a href="https://www.facebook.com/Queen?mibextid=ZbWKwL" target="_blank"><i class="face fa-brands fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/officialqueenmusic?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="insta fa-brands fa-instagram-square"></i></a>
+        <a href="https://x.com/QueenWillRock?s=20" target="_blank"><i class="twit fa-brands fa-twitter-square"></i></a>
+        <a href="https://www.tiktok.com/@queenofficial?_t=8iKDsSOr6VJ&_r=1" target="_blank"><i class="tiktok fa-brands fa-tiktok"></i></a>
+        </aside>
+    </footer>
+  
+  <script>
+    $("#iconomenu").click(function () {
+      $("#menu").slideToggle();
+    })
+  </script>   
+
+    <!-- Funciones JS -->
+    <script>
+      $(function() {
+        $(".rslides").responsiveSlides();
+      });
+  
+      Fancybox.bind('[data-fancybox="galeria"]', {
+        // Your custom options
+      });
+      
+    </script>
+
+</body>
+</html>

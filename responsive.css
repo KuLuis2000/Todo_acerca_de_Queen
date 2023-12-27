@@ -1,0 +1,463 @@
+@media screen and (max-width: 480px) {
+  .f-carousel__slide{
+    padding: 20px;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width:480px) {
+  #iconomenu{
+    display: inline-block;
+    margin: 15px;
+  }
+
+  section img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+  }
+
+  .contenedormenu{
+    border: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  display: none;
+}
+
+.contenedormenu a{
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 0;
+  display: block;
+}
+
+.ancho{
+  max-width: 95%;
+}
+
+.audios h2{
+  font-size: 29px;
+}
+
+.audio1{
+  width: 100%;
+  margin: 0%;
+  font-size: 27px;
+}
+
+.audio2{
+  width: 100%;
+  margin: 0%;
+  font-size: 27px;
+}
+
+.audio3{
+  width: 100%;
+  margin: 0%;
+  font-size: 27px;
+}
+
+.audio4{
+  width: 100%;
+  margin: 0%;
+  font-size: 27px;
+}
+
+.Killer_Queen{
+  width: 100%;
+}
+
+.Good_old_fashioned_lover_boys{
+  width: 100%;
+}
+
+.A_kind_of_magic{
+  width: 100%;
+}
+
+.Brighton_rock{
+  width: 100%;
+}
+
+.apartado1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.apartado1 p{
+  padding: 10px;
+}
+
+.apartado1 img{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.apartado2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.apartado2 p{
+  padding: 10px;
+  order: 1;
+}
+
+.apartado2 img{
+  margin-top: 10px;
+  width: 100%;
+  order: 2;
+}
+
+.apartado4{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.apartado4 p{
+  padding: 10px;
+  order: 1;
+}
+
+.queen{
+  margin-top: 10px;
+  width: 100%;
+  order: 2;
+  height: 220px !important;
+}
+
+.apartado4 img{
+  margin-top: 10px;
+  width: 100%;
+  order: 2;
+}
+
+.iconosredes{
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 7px;
+}
+
+.song{
+  width: 100%;
+}
+
+.music{
+  width: 100% !important;
+  height: 120px !important;
+}
+
+.wallpaper img{
+  width: 50%;
+}
+
+.acordeon_funcion{
+  background-image: url(Imagenes/music.gif) !important;
+  color: white;
+  background-position: center;
+  width: 100%;
+  border: none;
+}
+
+.RedesSociales{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.iconosredes{
+  margin-left: 20px;
+  margin-top: 80px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.RedesSociales{
+  display: flex;
+  flex-direction: row;
+  width: 300px !important;
+  gap: 2px !important;
+  justify-content: space-evenly;
+}
+
+.RedesSociales a i{
+  font-size: 40px !important;
+}
+
+.servicios{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.figure_section{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.banda_queen{
+  width: 100%;
+}
+
+.wallpaper img{
+  margin-left: 35px !important;
+}
+
+footer h2{
+  font-size: 40px !important;
+}
+
+}
+
+@media screen and (max-width:1024px) {
+  section img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+  }
+
+  #iconomenu{
+    display: inline-block;
+    margin: 15px;
+  }
+  .contenedormenu{
+    border: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  display: none;
+}
+
+.contenedormenu a{
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 0;
+  display: block;
+}
+
+.ancho{
+  max-width: 95%;
+}
+.imagen-fondo-menu{
+  background-image: url(Imagenes/Logo\ queen\ movil.jpeg);
+}
+
+.contenedormenu a{
+width: 70%;
+}
+
+.logo{
+  display: none;
+}
+
+.logo img{
+  display: none;
+}
+
+.RedesSociales{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  text-align: center;
+  gap: 20px;
+}
+
+.RedesSociales a i{
+  font-size: 75px;
+  width: 100%;
+}
+
+.face{
+  color: #4b74ce;
+}
+
+.insta{
+  color: #dd3ea3;
+}
+
+.twit{
+  color: rgb(106, 160, 255);
+}
+
+.tiktok{
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 48px;
+  width: 5px !important;
+  margin-right: 70px;
+  background-color: black;
+}
+
+.iconosredes a i{
+  font-size:25px;
+}
+
+.acordeon{
+  width: 100%;
+  padding: 15px;
+  border: 0%;
+}
+
+.margen li{
+  font-size: 20px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.acordeon{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagen{
+  padding: 15px;
+}
+
+.seccion li{
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.musica{
+  width: 100%;
+}
+
+.f-carousel__slide{
+  padding: 20px;
+  width: 100% !important;
+}
+
+.apartado1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.apartado1 p{
+  padding: 10px;
+}
+
+.apartado1 img{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.apartado2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.apartado2 p{
+  padding: 10px;
+  order: 1;
+}
+
+.apartado2 img{
+  margin-top: 10px;
+  width: 100%;
+  order: 2;
+}
+
+.apartado3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.apartado3 p{
+  padding: 10px;
+}
+
+.imagen3{
+  display: inline-block;
+  margin: auto;
+}
+
+.apartado3 img{
+  width: 650px ;
+  height: 400px;
+}
+.apartado4{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.apartado4 p{
+  padding: 10px;
+  order: 1;
+}
+
+.apartado4 img{
+  margin-top: 10px;
+  width: 100%;
+  order: 2;
+}
+
+section{
+  text-align: justify;
+}
+
+.figure_section{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.servicios{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.servicios section{
+  width: 100%;
+}
+
+.services{
+  text-align: center;
+}
+
+
+.banda_queen{
+  width: 100%;
+}
+
+footer h2{
+  font-size: 50px;
+  text-align: center;
+}
+
+.banda_queen{
+  max-width: 1024px;
+}
+
+.info_puestos{
+  max-width: 1024px;
+  padding: 25px;
+  margin: auto;
+}
+
+.wallpaper img{
+  margin-left: 51px;
+  width: 85%;
+}
+
+}

@@ -1,0 +1,598 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+h2{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+body{
+  font-family: helvetica;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+#iconomenu{
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+
+header{
+  text-align: center;
+  padding: 15px;
+}
+
+.logo{
+  width: 250px;
+  margin-left: 1050px;
+  margin-top: -70px;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.contenedormenu{
+  list-style: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.contenedormenu a{
+  padding: 10px 30px;
+  font-size: 20px;
+  border: 2px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.5s;
+}
+
+.iconosredes{
+  margin-left: 20px;
+  margin-top: 80px;
+  border-radius: 20px;
+}
+
+.iconosredes a{
+  margin-right:30px;
+  text-decoration:none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.face{
+  color: white;
+  transition: all .5s ease;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.face:hover{
+  color: #4b74ce;
+  border-radius: 100%;
+}
+
+.insta{
+  color: white;
+  transition: all.5s;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.insta:hover{
+  color: #dd3ea3;
+  border-radius: 100%;
+}
+
+.twit{
+  color: white;
+  transition: all.5s;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.twit:hover{
+  color: rgb(106, 160, 255);
+  border-radius: 100%;
+}
+
+.tiktok{
+  color: white;
+  border: 1px black solid;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 60px;
+  margin: 20px;
+  transition: all.5s;
+}
+
+.tiktok:hover{
+  border: 1px white solid;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.iconosredes a i{
+  font-size:40px;
+}
+
+.contenedormenu a:hover{
+  background-color: #052843;
+  color: white;
+}
+
+.imagen-fondo-menu{
+  background-image: url(Imagenes/queen\ grupo.jpg);
+  background-size: cover;
+  height: 470px;
+}
+
+.audios h2{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-top: 30px;
+}
+
+.audio1{
+  width: 100%;
+}
+.audio2{
+  width: 100%;
+}
+
+.audio3{
+  width: 100%;
+}
+
+.audio4{
+  width: 100%;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  height: 930px;
+  min-height: 400px;
+  object-fit: cover;
+  border: 0;
+  }
+  
+  .contenedor_slide{
+    position: relative;
+  }
+
+  .audios{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    color: white;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apartado1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .historia{
+    text-align: justify;
+  }
+
+  .historia h2{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .apartado1 img{
+    border-radius: 15px;
+    width: 40%;
+    margin-left: 15px;
+    object-fit: cover;
+  }
+
+  .apartado1 p{
+    line-height: 1cm;
+  }
+
+  .apartado2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .apartado2 img{
+    border-radius: 15px;
+    width: 300px;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+
+  .apartado2 p{
+    line-height: 1cm;
+  }
+
+  .apartado3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .apartado3 img{
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    margin-left: 15px;
+    object-fit: cover;
+  }
+
+  .apartado3 p{
+    line-height: 1cm;
+  }
+
+  .apartado4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .apartado4 img{
+    border-radius: 15px;
+    width: 570px;
+    height: 300px;
+  }
+
+  .apartado4 p{
+    line-height: 1cm;
+    margin: 10px;
+  }
+
+  .canciones{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .acordeon{
+    background-color: rgb(1, 1, 54);
+    color: white;
+    width: 97%;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .acordeon:hover{
+    background-color: rgb(3, 3, 114);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .acordeon_funcion{
+    display: none;
+    padding: 16px;
+    width: 97%;
+    margin: auto;
+    border: 1px #999 solid;
+    color: white;
+  }
+  
+  .imagen{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+
+  .queen_1973{
+    background-image: url(Imagenes/Queen\ 1973.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .sheer_heart_attack{
+    background-image: url(Imagenes/sheer\ heart\ attack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .Queen_II{
+    background-image: url(Imagenes/Queen_II.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .A_Night_at_the_Opera{
+    background-image: url(Imagenes/Queen_A_Night_At_The_Opera.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .a-day-at-the-races{
+    background-image: url(Imagenes/a-day-at-the-races.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .news-of-the-world{
+    background-image: url(Imagenes/news-of-the-world.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .jazz{
+    background-image: url(Imagenes/jazz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .the-game{
+    background-image: url(Imagenes/the-game.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .flash-gordon{
+    background-image: url(Imagenes/flash-gordon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hot-space{
+    background-image: url(Imagenes/hot-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .The_Works{
+    background-image: url(Imagenes/The_Works.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .A-kind-of-magic{
+    background-image: url(Imagenes/A-kind-of-magic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .The-miracle{
+    background-image: url(Imagenes/The-miracle.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .Innuendo{
+    background-image: url(Imagenes/Innuendo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .Made-in-heaven{
+    background-image: url(Imagenes/Made-in-heaven.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .numeros{
+    color: black;
+  }
+
+  .margen{
+    margin-left: 30px;
+  }
+
+  header{
+    padding: 20px;
+  }
+  
+  h1{
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .ancho{
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .btn_rojo{
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+  }
+  
+  .f-carousel{
+    width: 100%;
+  }
+  
+  .f-carousel__slide{
+    padding: 10px;
+    background-color: #eee;
+    border: 2px white solid;
+    text-align: center;
+    width: 33.33% !important;
+  }
+
+  .f-carousel__slide p{
+    text-align: justify;
+    padding: 15px;
+  }
+
+  .banda_queen{
+    border-radius: 15px;
+    max-width: 500px;
+  }  
+
+  .info_puestos{
+    max-width: 600px;
+  }
+  
+  .figure_section{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 40px;
+  }
+  
+  .servicios{
+    display: flex;
+    gap: 20px;
+    width: 1300px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  
+  .servicios section{
+    width: 380px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-bottom: 40px;
+  }
+  
+  .servicios h2{
+    font-family: var(--Tipografia_gruesa);
+  }
+  
+  section{
+    text-align: justify;
+    padding: 15px;
+  }
+
+  section h2{
+    text-align: center;
+  }
+
+  section img{
+    border-radius: 100%;
+    width: 60%;
+    height: 27%;
+    object-fit: cover;
+    border: 5px var(--blanco) solid;
+    margin-top: 30px;
+    margin-left: 62px;
+  }
+  
+  .servicios section a{
+    border: 2px var(--rosado) solid;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--blanco);
+    background-color: var(--rosado);
+    margin-left: 130px;
+    transition: all 0.5s ease;
+  }
+  
+  section a:hover{
+    background-color: var(--blanco);
+    color: var(--rosado);
+    border: 2px var(--rosado) solid;
+  }
+
+  footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    padding: 15px;
+  }
+
+  footer h2{
+    font-size: 30px;
+  }
+
+  .wallpaper img{
+    width: 40%;
+    margin-left: 240px;
+  }
