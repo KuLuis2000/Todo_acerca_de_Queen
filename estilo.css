@@ -185,6 +185,7 @@ header{
   width: 100%;
   padding: 0;
   margin: 0;
+  background-color: #052843;
   }
 
 .rslides li {
@@ -215,6 +216,7 @@ header{
   
   .contenedor_slide{
     position: relative;
+    background-color: black;
   }
 
   .audios{
@@ -533,7 +535,7 @@ header{
   .servicios section{
     width: 380px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding-bottom: 40px;
   }
@@ -550,8 +552,9 @@ header{
   section h2{
     text-align: center;
   }
+  
 
-  section img{
+  .services img{
     border-radius: 100%;
     width: 60%;
     height: 27%;
@@ -570,12 +573,7 @@ header{
     margin-left: 130px;
     transition: all 0.5s ease;
   }
-  
-  section a:hover{
-    background-color: var(--blanco);
-    color: var(--rosado);
-    border: 2px var(--rosado) solid;
-  }
+
 
   footer{
     background-color: black;
